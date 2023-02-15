@@ -1,3 +1,5 @@
+# fairly easy
+
 geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
 
 #verbose
@@ -12,4 +14,3 @@ def goose_filter(birds):
 # if you want to use list comprehension
 def goose_filter(birds):    
     return [birdie for birdie in birds if birdie not in geese]  
-    
