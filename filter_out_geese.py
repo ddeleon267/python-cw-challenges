@@ -1,5 +1,3 @@
-# fairly easy
-
 geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
 
 #verbose
