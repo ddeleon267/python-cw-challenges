@@ -1,11 +1,9 @@
-#fairly simple
-
-def count_positives_sum_negatives(arr):
-    if len(arr) == 0: return arr # or some other variation that accounts for empty array
+def count_positives_sum_negatives(list):
+    if len(list) == 0: return list # or some other variation that accounts for empty list
 
     count_pos = 0
     sum_negs = 0
-    for num in arr:
+    for num in list:
         if num > 0:
             count_pos += 1
         elif num < 0:
