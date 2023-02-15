@@ -1,5 +1,3 @@
-# easy
-
 # if you wanna go the traditional route:
 def greet(name, owner):
     if name == owner:

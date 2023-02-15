@@ -1,13 +1,6 @@
-# a bit challenging!
 # remember that sorted() always returns a list/array!
 
-
-# my initial solution:
-# if you want to use a list comprehension instead
-def convert_hash_to_array(dict):
-    return [[key, val] for key, val in sorted(dict.items())]
-
-# verbose, if that's helpful for your student
+# verbose
 def convert_hash_to_array(dict):
     sorted_list = sorted(dict.items()) # sorting by key, get back list of tuples formatted like (key, val)
     new_array = []
@@ -15,7 +8,9 @@ def convert_hash_to_array(dict):
         new_array.append([key, val])
     return new_array
 
-
+# if you want to use a list comprehension instead
+def convert_hash_to_array(dict):
+    return [[key, val] for key, val in sorted(dict.items())]
 
 
 ############################# OTHER SOLUTIONS - find one that clicks for you! ######################    

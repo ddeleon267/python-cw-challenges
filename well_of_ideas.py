@@ -1,4 +1,3 @@
-#easy
 def well(x):
     good_ideas = x.count('good')
     if good_ideas > 2:

@@ -1,5 +1,3 @@
-# easy
-
 def find_average(nums):
     # tests try an empty list so need to account for division by 0
     length = len(nums)
@@ -7,10 +5,10 @@ def find_average(nums):
     
     
     # or if you don't wanna use sum, ternary
-    if length > 0:
-        sum = 0
-        for num in nums:
-            sum += num
-        return sum / len(nums)
-    else:
-        return 0
+    # if length > 0:
+    #     sum = 0
+    #     for num in nums:
+    #         sum += num
+    #     return sum / len(nums)
+    # else:
+    #     return 0

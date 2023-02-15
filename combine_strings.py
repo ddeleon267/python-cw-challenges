@@ -1,5 +1,3 @@
-# easy
-
 # f string seems to be most modern way
 def combine_names(first_name, last_name):
     return f"{first_name} {last_name}"
