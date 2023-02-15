@@ -1,15 +1,15 @@
 # only replacing lower-case vowels
 
 # using a loop:
-def shortcut(s):
+def shortcut(string):
     for vowel in "aeiou":
-        s = s.replace(vowel, "")
-    return s
+        string = string.replace(vowel, "")
+    return string
 
 
 # if regex makes your heart sing
 import re
-def shortcut(s):
+def shortcut(string):
     # [] in regex is essentially 'any character in this range'
-    new_s = re.sub('[aeiou]', '', s)
-    return new_s
+    new_string = re.sub('[aeiou]', '', s)
+    return new_string
