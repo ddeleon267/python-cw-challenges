@@ -11,5 +11,5 @@ def shortcut(string):
 import re
 def shortcut(string):
     # [] in regex is essentially 'any character in this range'
-    new_string = re.sub('[aeiou]', '', s)
+    new_string = re.sub('[aeiou]', '', string)
     return new_string
