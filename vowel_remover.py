@@ -1,6 +1,4 @@
-# a littler trickier
 # only replacing lower-case vowels
-
 
 # using a loop:
 def shortcut(s):
@@ -10,7 +8,6 @@ def shortcut(s):
 
 
 # if regex makes your heart sing
-
 import re
 def shortcut(s):
     # [] in regex is essentially 'any character in this range'
