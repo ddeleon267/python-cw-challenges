@@ -3,8 +3,8 @@
 # join back into string
 
 #verbose
-def make_string(s):
-    words = s.split()
+def make_string(string):
+    words = string.split()
     letters = []
     for word in words:
         letters.append(word[0])
@@ -13,6 +13,6 @@ def make_string(s):
 
 
 # if you wanna get fancy and use something like a list comprehension
-def make_string(s):
-    return ''.join([word[0] for word in s.split()])
+def make_string(string):
+    return ''.join([word[0] for word in string.split()])
     # also works without surrounding brackets because join takes any iterable, not just lists
