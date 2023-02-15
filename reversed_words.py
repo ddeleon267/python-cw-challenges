@@ -1,5 +1,3 @@
-#fairly easy
-
 #verbose
 def reverse_words(words):
     words_arr = words.split(" ")
